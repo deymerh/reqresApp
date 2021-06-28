@@ -1,0 +1,9 @@
+.homeRouter{
+  display: grid;
+  grid-template-columns: 25% 75%;
+  .container{
+    width: 100%;
+    padding: 2rem;
+    padding-top: 12vh;
+  }
+}

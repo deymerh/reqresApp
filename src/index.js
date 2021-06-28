@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import { CeibaApp } from './CeibaApp';
+import './styles/index.scss';
+import axios from 'axios';
 import reportWebVitals from './reportWebVitals';
+
+axios.defaults.baseURL = 'https://reqres.in';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <CeibaApp />
   </React.StrictMode>,
   document.getElementById('root')
 );

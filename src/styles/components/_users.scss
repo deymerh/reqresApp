@@ -1,0 +1,26 @@
+.tableUsers {
+  font-family: 'Lato', sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  overflow: scroll;
+  td,
+  th {
+    border: 1px solid darken($color: $dark-grey, $amount: 60);
+    padding: 8px;
+    text-transform: capitalize;
+  }
+  tr:nth-child(even) {
+    background-color: lighten($color: $dark-grey, $amount: 85);
+  }
+   tr:hover {
+    background-color: #1a83ff;
+    ;
+  }
+  th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: lighten($color: $dark-grey, $amount: 10);
+    color: white;
+  }
+}
